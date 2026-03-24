@@ -1,0 +1,154 @@
+body {
+    font-family: 'Roboto';
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+
+
+button {
+    color: white;
+    background-color: #3882f6;
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.header {
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 10px 160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.header h1 {
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+.header ul {
+    font-size: 18px;
+}
+
+.section-one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 80px 160px;
+    gap: 60px;
+}
+
+.section-one h2 {
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.section-one img {
+    width: 600px;
+}
+
+.section-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0 70px 0;
+    gap: 60px;
+}
+
+.section-two h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.img-cards {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.img-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 150px;
+}
+
+.img-card img {
+    width: 150px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 10px;
+    border-color:#3882f6;
+    border-style: solid;
+    border-width: 3px;
+}
+
+.section-three {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+    padding: 100px 200px;
+}
+
+#quote-author {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.section-four {
+    padding: 80px 200px;
+}
+
+.action-card {
+    background-color: #3882f6;
+    border-radius: 5px;
+    color: white;
+    padding: 30px 100px;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.action-card h2 {
+    font-size: 24px;
+    margin: 7px 0px;
+}
+
+.action-card p {
+    font-size: 18px;
+    margin: 7px 0px;
+}
+
+.action-card button {
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    flex-grow: 0;
+    align-self: center;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 10px;
+    text-align: center;
+}
